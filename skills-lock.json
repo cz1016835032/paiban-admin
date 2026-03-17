@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "ai-model-nodejs": {
+      "source": "tencentcloudbase/skills",
+      "sourceType": "github",
+      "computedHash": "2b8fcf6dee4dbb3f0328e6dfa56d26f1242c870234c26fe4a718312ec765e5f5"
+    }
+  }
+}

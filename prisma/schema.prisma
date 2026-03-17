@@ -1,0 +1,90 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id             String    @id @default(cuid())
+  feishuUserId   String?   @unique
+  name           String    @unique
+  role           String    @default("EMPLOYEE") // ADMIN, MANAGER, EMPLOYEE
+  isActive       Boolean   @default(true)
+  schedules      Schedule[]
+  wishDays       WishDay[]
+  leaveDays      LeaveDay[]
+  monthlyRules   MonthlyRule[]
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+}
+
+model Setting {
+  id             String    @id @default("standard")
+  weekdayMinNum  Int       @default(1)
+  weekendMinNum  Int       @default(2)
+  maxConsecutive Int       @default(6)
+  updatedAt      DateTime  @updatedAt
+}
+
+model Holiday {
+  id             String    @id @default(cuid())
+  date           DateTime  @unique
+  name           String
+  type           String    // HOLIDAY, WORKDAY (for adjusted workdays)
+}
+
+model MonthlyRule {
+  id             String    @id @default(cuid())
+  month          String    // Format: YYYY-MM
+  userId         String
+  user           User      @relation(fields: [userId], references: [id])
+  requiredDays   Int       // 当月应排班天数
+  confirmedDays  Int?      // 负责人确认的当月应排天数
+  
+  @@unique([month, userId])
+}
+
+model Schedule {
+  id             String    @id @default(cuid())
+  date           DateTime
+  userId         String
+  user           User      @relation(fields: [userId], references: [id])
+  shiftType      String    // DAY, NIGHT
+  status         String    @default("DRAFT") // DRAFT, PUBLISHED
+  
+  @@unique([date, userId])
+}
+
+model WishDay {
+  id             String    @id @default(cuid())
+  date           DateTime
+  userId         String
+  user           User      @relation(fields: [userId], references: [id])
+  priority       Int       @default(1)
+  
+  @@unique([date, userId])
+}
+
+model LeaveDay {
+  id             String    @id @default(cuid())
+  date           DateTime
+  userId         String
+  user           User      @relation(fields: [userId], references: [id])
+  reason         String?
+  
+  @@unique([date, userId])
+}
+
+model AuditLog {
+  id             String    @id @default(cuid())
+  actorId        String
+  action         String
+  details        String
+  createdAt      DateTime  @default(now())
+}

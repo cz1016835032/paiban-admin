@@ -1,0 +1,62 @@
+[
+  {
+    "name": "何咏琪",
+    "schedules": [
+      {"day": 1, "shift": "休"}, {"day": 2, "shift": "晚"}, {"day": 3, "shift": "晚"}, {"day": 4, "shift": "休"}, {"day": 5, "shift": "早"},
+      {"day": 6, "shift": "早"}, {"day": 7, "shift": "早"}, {"day": 8, "shift": "休"}, {"day": 9, "shift": "晚"}, {"day": 10, "shift": "晚"},
+      {"day": 11, "shift": "休"}, {"day": 12, "shift": "早"}, {"day": 13, "shift": "早"}, {"day": 14, "shift": "早"}, {"day": 15, "shift": "休"},
+      {"day": 16, "shift": "早"}, {"day": 17, "shift": "晚"}, {"day": 18, "shift": "休"}, {"day": 19, "shift": "早"}, {"day": 20, "shift": "晚"},
+      {"day": 21, "shift": "晚"}, {"day": 22, "shift": "休"}, {"day": 23, "shift": "早"}, {"day": 24, "shift": "晚"}, {"day": 25, "shift": "休"},
+      {"day": 26, "shift": "休"}, {"day": 27, "shift": "早"}, {"day": 28, "shift": "早"}, {"day": 29, "shift": "晚"}, {"day": 30, "shift": "晚"},
+      {"day": 31, "shift": "休"}
+    ]
+  },
+  {
+    "name": "向桂华",
+    "schedules": [
+      {"day": 1, "shift": "早"}, {"day": 2, "shift": "早"}, {"day": 3, "shift": "晚"}, {"day": 4, "shift": "晚"}, {"day": 5, "shift": "休"},
+      {"day": 6, "shift": "早"}, {"day": 7, "shift": "早"}, {"day": 8, "shift": "早"}, {"day": 9, "shift": "早"}, {"day": 10, "shift": "休"},
+      {"day": 11, "shift": "休"}, {"day": 12, "shift": "晚"}, {"day": 13, "shift": "晚"}, {"day": 14, "shift": "休"}, {"day": 15, "shift": "休"},
+      {"day": 16, "shift": "早"}, {"day": 17, "shift": "早"}, {"day": 18, "shift": "早"}, {"day": 19, "shift": "早"}, {"day": 20, "shift": "早"},
+      {"day": 21, "shift": "晚"}, {"day": 22, "shift": "休"}, {"day": 23, "shift": "休"}, {"day": 24, "shift": "早"}, {"day": 25, "shift": "晚"},
+      {"day": 26, "shift": "晚"}, {"day": 27, "shift": "休"}, {"day": 28, "shift": "休"}, {"day": 29, "shift": "早"}, {"day": 30, "shift": "早"},
+      {"day": 31, "shift": "休"}
+    ]
+  },
+  {
+    "name": "谢彦婷",
+    "schedules": [
+      {"day": 1, "shift": "晚"}, {"day": 2, "shift": "休"}, {"day": 3, "shift": "休"}, {"day": 4, "shift": "假"}, {"day": 5, "shift": "假"},
+      {"day": 6, "shift": "假"}, {"day": 7, "shift": "假"}, {"day": 8, "shift": "晚"}, {"day": 9, "shift": "晚"}, {"day": 10, "shift": "休"},
+      {"day": 11, "shift": "休"}, {"day": 12, "shift": "早"}, {"day": 13, "shift": "早"}, {"day": 14, "shift": "早"}, {"day": 15, "shift": "晚"},
+      {"day": 16, "shift": "休"}, {"day": 17, "shift": "休"}, {"day": 18, "shift": "早"}, {"day": 19, "shift": "晚"}, {"day": 20, "shift": "晚"},
+      {"day": 21, "shift": "晚"}, {"day": 22, "shift": "晚"}, {"day": 23, "shift": "休"}, {"day": 24, "shift": "休"}, {"day": 25, "shift": "早"},
+      {"day": 26, "shift": "早"}, {"day": 27, "shift": "早"}, {"day": 28, "shift": "晚"}, {"day": 29, "shift": "休"}, {"day": 30, "shift": "休"},
+      {"day": 31, "shift": "晚"}
+    ]
+  },
+  {
+    "name": "汪宗顶",
+    "schedules": [
+      {"day": 1, "shift": "晚"}, {"day": 2, "shift": "晚"}, {"day": 3, "shift": "休"}, {"day": 4, "shift": "休"}, {"day": 5, "shift": "早"},
+      {"day": 6, "shift": "早"}, {"day": 7, "shift": "早"}, {"day": 8, "shift": "早"}, {"day": 9, "shift": "晚"}, {"day": 10, "shift": "晚"},
+      {"day": 11, "shift": "休"}, {"day": 12, "shift": "休"}, {"day": 13, "shift": "早"}, {"day": 14, "shift": "早"}, {"day": 15, "shift": "早"},
+      {"day": 16, "shift": "晚"}, {"day": 17, "shift": "晚"}, {"day": 18, "shift": "晚"}, {"day": 19, "shift": "休"}, {"day": 20, "shift": "休"},
+      {"day": 21, "shift": "早"}, {"day": 22, "shift": "早"}, {"day": 23, "shift": "晚"}, {"day": 24, "shift": "晚"}, {"day": 25, "shift": "晚"},
+      {"day": 26, "shift": "休"}, {"day": 27, "shift": "休"}, {"day": 28, "shift": "早"}, {"day": 29, "shift": "早"}, {"day": 30, "shift": "晚"},
+      {"day": 31, "shift": "晚"}
+    ]
+  },
+  {
+    "name": "彭琪瑛",
+    "schedules": [
+      {"day": 1, "shift": "休"}, {"day": 2, "shift": "休"}, {"day": 3, "shift": "晚"}, {"day": 4, "shift": "晚"}, {"day": 5, "shift": "晚"},
+      {"day": 6, "shift": "晚"}, {"day": 7, "shift": "晚"}, {"day": 8, "shift": "晚"}, {"day": 9, "shift": "休"}, {"day": 10, "shift": "休"},
+      {"day": 11, "shift": "早"}, {"day": 12, "shift": "早"}, {"day": 13, "shift": "晚"}, {"day": 14, "shift": "晚"}, {"day": 15, "shift": "晚"},
+      {"day": 16, "shift": "休"}, {"day": 17, "shift": "休"}, {"day": 18, "shift": "早"}, {"day": 19, "shift": "早"}, {"day": 20, "shift": "早"},
+      {"day": 21, "shift": "早"}, {"day": 22, "shift": "晚"}, {"day": 23, "shift": "休"}, {"day": 24, "shift": "休"}, {"day": 25, "shift": "早"},
+      {"day": 26, "shift": "早"}, {"day": 27, "shift": "晚"}, {"day": 28, "shift": "晚"}, {"day": 29, "shift": "休"}, {"day": 30, "shift": "休"},
+      {"day": 31, "shift": "早"}
+    ]
+  }
+]
