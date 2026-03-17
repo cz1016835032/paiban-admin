@@ -3,6 +3,7 @@ const nextConfig = {
   devIndicators: {
     buildActivity: false,
   },
+  output: 'export',
 };
 
 module.exports = nextConfig;
